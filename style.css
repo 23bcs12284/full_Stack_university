@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  position: relative;
+  padding: 10px;
+  top: 0px;
+  /* left: 10px; */
+  /* right: 10px; */
+  border: #8f94fb 2px solid;
+  border-radius: 10px;
+  text-align: center;
+  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+  
+  color: #fff;
+  font-weight: bold;
+  font-size: large;
+}
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+nav {
+  text-align: center;
+  margin: 30px 0;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  margin: 0 15px;
+}
+nav a {
+  text-decoration: none;
+  color: #4e54c8;
+  background: #fff;
+  border: 1px solid #4e54c8;
+  padding: 10px 18px;
+  border-radius: 25px;
+  margin: 8px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+
+nav a:hover {
+  background: #4e54c8;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+nav a:active {
+  transform: scale(0.95);
+}
+
+section {
+  background: #fff;
+  margin: 25px auto;
+  padding: 25px;
+  max-width: 950px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+section:hover {
+  transform: translateY(-5px);
+}
+section h2 {
+  color: #4e54c8;
+  margin-bottom: 10px;
+  border-bottom: 3px solid #4e54c8;
+  padding-bottom: 5px;
+  font-weight: 600;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+ul li {
+  margin: 10px 0;
+  padding: 10px;
+  background: #f0f0f0;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+ul li:hover {
+  background: #e0e0e0;
+}
+ul li span {
+  font-weight: bold;
+  color: #4e54c8;
+}
+ul li p {
+  margin: 5px 0;
+  color: #333;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #4e54c8;
+  color: #fff;
+  position: sticky;
+  bottom: 0;
+}
+ul li::before {
+  content: "✔️";
+  position: absolute;
+  left: -20px;
+  color: #4e54c8;
+}
+p {
+  margin: 5px 0 15px;
+  color: #444;
+}
+ol li {
+  font-weight: bold;
+  margin-top: 12px;
+}
+ol li::before {
+  content: "•";
+  color: #4e54c8;
+  position: absolute;
+  left: 0;
+  font-size: 1.2rem;
+}
+
